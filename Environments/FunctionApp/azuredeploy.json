@@ -71,7 +71,8 @@
       "kind": "web",
       "location": "[parameters('location')]",
       "properties": {
-        "Application_Type": "web"
+        "Application_Type": "web",
+        "WorkspaceResourceId": "/subscriptions/28c1d0f6-4d3c-40ac-b093-5ed6923a1835/resourcegroups/rg-wus3-appi-web-app-main/providers/microsoft.operationalinsights/workspaces/law-wus3-appi-demo"
       },
       "tags": "[parameters('tags')]"
     },
